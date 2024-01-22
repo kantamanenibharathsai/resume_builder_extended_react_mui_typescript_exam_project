@@ -167,7 +167,7 @@ const ResumeOne = () => {
                         </Box>
                         <Box sx={resumeOneStyles.listItemContainer} component="li">
                             <FiberManualRecordIcon sx={resumeOneStyles.dotIcon} />
-                            <Typography sx={resumeOneStyles.listItemText}>Well-versed in Texas employment law</Typography>
+                            <Typography sx={resumeOneStyles.listItemText}>Well-versed in Texas employment law!</Typography>
                         </Box>
                         <Box sx={resumeOneStyles.listItemContainer} component="li">
                             <FiberManualRecordIcon sx={resumeOneStyles.dotIcon} />
