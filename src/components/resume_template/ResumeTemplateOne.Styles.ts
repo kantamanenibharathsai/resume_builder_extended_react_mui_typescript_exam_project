@@ -32,13 +32,23 @@ const resumeOneStyles = {
     display: "flex",
     flexDirection: "column",
     gap: "0px",
-    textAlign: "center",   
+    textAlign: "center",
+    border: "1px solid red",
+  },
+
+  nameTextContainer: {
+    width: "200px",
+    wordWrap: "break-word",
+    overflow: "auto",
+    margin: "auto",
   },
 
   nameText: {
     color: "#98C64D",
-    fontSize: "24px",
     fontWeight: "700",
+    fontSize: "24px",
+    overflow: "hidden",
+    whiteSpace: "nowrap",
   },
 
   designationText: {
@@ -47,11 +57,20 @@ const resumeOneStyles = {
     fontWeight: "500",
   },
 
+  addressTextContainer: {
+    mt: "3px",
+    width: "280px",
+    wordWrap: "break-word",
+    overflow: "auto",
+    margin: "auto",
+  },
+
   addressText: {
     color: "#98C64D",
     fontSize: "10px",
     fontWeight: "400",
-    mt: "3px",
+    overflow: "hidden",
+    whiteSpace: "nowrap",
   },
 
   numberEmailContainer: {
@@ -62,23 +81,40 @@ const resumeOneStyles = {
     mt: "13px",
   },
 
+  numberTextContainer: {
+    width: "120px",
+    wordWrap: "break-word",
+    overflow: "auto",
+    // border: "2px solid red",
+  },
+
   number: {
     color: "#98C64D",
     fontSize: "11px",
     fontWeight: "300",
+    overflow: "hidden",
+    whiteSpace: "nowrap",
+  },
+
+  emailTextContainer: {
+    width: "140px",
+    wordWrap: "break-word",
+    overflow: "auto",
+    margin: "auto",
   },
 
   email: {
     color: "#98C64D",
     fontSize: "10px",
     fontWeight: "300",
-    flexGrow: 1,
     textAlign: "center",
+    overflow: "hidden",
+    whiteSpace: "nowrap",
     // border: "2px solid yellow",
   },
 
   emailSpan: {
-    marginRight: "50px",
+    // marginRight: "50px",
   },
 
   dividerOne: {

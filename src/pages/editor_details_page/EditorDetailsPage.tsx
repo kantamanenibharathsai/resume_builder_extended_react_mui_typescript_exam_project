@@ -1,4 +1,4 @@
-import { Box, Button, Modal, Typography } from "@mui/material"
+import { Box, Button, Modal, } from "@mui/material"
 import formResumePageStyles from "./EditorDetailsPage.Styles"
 import Navbar from "../../components/navbar/Navbar"
 import FormTemplate from "../../components/form_template/FormTemplate"

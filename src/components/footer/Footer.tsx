@@ -5,11 +5,15 @@ import { useNavigate } from "react-router-dom"
 const Footer = () => {
     const navigate = useNavigate()
 
+    const skipEventHandler = () => {
+        navigate("/editor/details")
+    }
+
 
     return (
         <Box sx={footerStyles.footerContainer}>
             <Box sx={footerStyles.footerChildContainer}>
-                <Button variant="contained" sx={footerStyles.skipForNowButton} disableElevation onClick={() => {navigate("/editor/details")}}>
+                <Button variant="contained" sx={footerStyles.skipForNowButton} disableElevation onClick={skipEventHandler}>
                     Skip for Now
                 </Button>
             </Box>
